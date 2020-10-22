@@ -3,6 +3,21 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>
+      This is a simple tool that changes your gnome based desktop background
+    </Description>
+    <Summary>
+      Change your desktop background every certain amount of time
+    </Summary>
+    <Version>0.1.0</Version>
+    <Title>BgPictureChanger</Title>
+    <Authors>Angel D. Munoz</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ProjectUrl>https://github.com/AngelMunoz/BgPictureChanger</ProjectUrl>
+    <RepositoryUrl>https://github.com/AngelMunoz/BgPictureChanger.git</RepositoryUrl>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>bgpictureChanger</ToolCommandName>
+    <PackageOutputPath>./dist</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

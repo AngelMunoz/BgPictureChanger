@@ -19,6 +19,10 @@ Powershell Core (optional for instalation)*
     > sudo cp ./dist/BgPictureChanger /usr/local/bin
     > ```
 
+or if you have dotnet already installed just do 
+
+- `dotnet tool install --global BgPictureChanger --version 0.1.0`
+***Note***: the comand for the dotnet tool is `bgpictureChanger`
 
 ## Quick Test
 after installing simply try
