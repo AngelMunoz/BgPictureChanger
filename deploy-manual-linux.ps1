@@ -10,6 +10,7 @@ write-host "Copying file to /usr/local/bin/BgPictureChanger"
 sudo cp BgPictureChanger /usr/local/bin
 if (-Not $?) {
     write-output "The deploy failed..."
+} else {
+    write-host "Build and deploy successful"
 }
 set-location $root
-write-host "Build and deploy successful"
