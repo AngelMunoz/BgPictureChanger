@@ -9,7 +9,7 @@
     <Summary>
       Change your desktop background every certain amount of time
     </Summary>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Title>BgPictureChanger</Title>
     <Authors>Angel D. Munoz</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
